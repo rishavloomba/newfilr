@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string.h>
 using namespace std;
-
+//infix to postfix
 char prec(int x)
 {
 	if(x==1)
@@ -121,8 +121,7 @@ int main()
 				ans+=s[i];
 			}
 	}
-	
-	
+
 	
 	
 	for(int i=top;i>=0;i--)
